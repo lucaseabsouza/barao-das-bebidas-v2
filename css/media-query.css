@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 1300px) {
+@media (max-width: 768px) {
     nav{
         height: 150px;
     }
