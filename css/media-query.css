@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@media (max-width: 1300px) {
+    nav{
+        height: 150px;
+    }
+    nav img{
+        width: 120px;
+    }
+    .nav-link{
+        font-size: 2rem;
+    }
+    #header{
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+    }
+    #logo{
+        width: 150px;
+    }
+    #menu{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        top: 150px;
+        right: 0px;
+        background-color: var(--main-color);
+        display: block;
+        text-align: center;
+        z-index: 10000;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu{
+        height: 300px;
+        display: block;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+    #btn-mobile{
+        display: flex;
+        cursor: pointer;
+        padding: .5rem 1rem;
+        border: none;
+        background: none;
+        gap: .5rem;
+        align-items: center;
+    }
+    #burguer{
+        display: block;
+        width: 40px;
+        border-top: 5px solid;
+    }
+    #burguer::after, #burguer::before{
+        content: '';
+        display: block;
+        width: 40px;
+        height: 5px;
+        margin-top: 10px;
+        background-color: currentColor;
+        transition: .5s;
+        position: relative;
+    }
+    #nav.active #burguer{
+        border-top-color: transparent;
+    }
+    #nav.active #burguer::after{
+        transform: rotate(135deg);
+        top: -15px;
+    }
+    #nav.active #burguer::before{
+        transform: rotate(-135deg);
+    }
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-chopp{
+        max-width: 600px;
+    }
+    .card-chopp h2{
+        font-size: 3rem;
+    }
+    .card-chopp h3{
+        font-size: 2rem;
+    }
+    .card-chopp button{
+        font-size: 3rem;
+    }
+    .sub-label{
+        font-size: 1.8rem;
+    }
+    #schedul, #contact{
+        width: 85vw;
+        padding: 20px;
+        margin: 5% auto;
+    }
+    .labels, .input-labels, .submit-labels, .qnt-choice{
+        height: 80px;
+    }
+    .qnt-choice{
+        width: 150px;
+    }
+    .input-labels{
+        margin: 5% 0;
+        width: 60vw;
+    }
+    .choice{
+        margin: 2% 0;
+    }
+    .labels, .input-labels, .submit-labels{
+        font-size: 3rem;
+    }
+    #chopp-pilsen-50L, #chopp-pilsen-30L, #chopp-amber-30L, #whatsapp, #nome{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .sub-label{
+        font-size: 2.5rem;
+    }
+    #instagram{
+        flex-direction: column;
+    }
+}
