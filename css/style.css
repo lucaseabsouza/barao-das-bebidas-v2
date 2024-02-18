@@ -111,16 +111,13 @@ body{
 }
 
 #schedul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0 15%;
     background-color: var(--sec-color);
     border-radius: 10px;
 }
 
 form{
-    margin: 2% auto;
+    padding: 5% 15%;
     width: 5% auto;
 }
 
