@@ -148,9 +148,14 @@ form{
     display: flex;
 }
 
-#chopp-pilsen-50L, #chopp-pilsen-30L, #chopp-amber-30L, #whatsapp, #nome{
+#chopp_pilsen_50L, #chopp_pilsen_30L, #chopp_amber_30L{
     font-size: 2rem;
     text-align: center;
+}
+
+#nome{
+    font-size: 2rem;
+    text-align: start;
 }
 
 .sub-label{

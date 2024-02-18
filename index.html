@@ -43,30 +43,26 @@
         </section>
         <h1 id="title_schedul" class="titles">Quero agendar meu chopp!</h1>
         <section id="schedul">
-            <form action="#" method="get" onsubmit="openWhatsapp">
+            <form id="whatsappForm" action="#" method="get" onsubmit="openWhatsapp">
                 <p><label for="nome" class="labels">Nome:</label>
                     <br>
                     <input class="input-labels" type="text" name="name" id="nome" required>
                 </p>
                 <p><label class="labels">Data desejada:</label >
-                    <p class="sub-label">(lembrando que o prazo de permanência com a máquina e barris são de no máximo 3 dias)</p>
-                    <input class="input-labels" type="date" name="date" id="idate">
+                    <p class="sub-label">(lembrando que o prazo de permanência com a máquina e barris são de no máximo 3 dias e que preenchendo este formulário ainda será necessário uma validação de disponibilidade de máquina de chopp e da data desejada.)</p>
+                    <input class="input-labels" type="date" name="date" id="idate" required>
                 </p>
                 <p>
                     <div class="choice">
-                        <label for="chopp-pilsen-50L" class="sub-label">Pilsen 50L</label>
-                        <input class="qnt-choice" type="number" min="0" id="chopp-pilsen-50L">
-                        <label for="chopp-pilsen-30L" class="sub-label">Pilsen 30L</label>
-                        <input class="qnt-choice" type="number" min="0" id="chopp-pilsen-30L">
-                        <label for="chopp-amber-30L" class="sub-label">Amber 30L</label>
-                        <input class="qnt-choice" type="number" min="0" id="chopp-amber-30L">
+                        <label for="chopp_pilsen_50L" class="sub-label">Pilsen 50L</label>
+                        <input class="qnt-choice" type="number" min="0" id="chopp_pilsen_50L" required>
+                        <label for="chopp_pilsen_30L" class="sub-label">Pilsen 30L</label>
+                        <input class="qnt-choice" type="number" min="0" id="chopp_pilsen_30L" required>
+                        <label for="chopp_amber_30L" class="sub-label">Amber 30L</label>
+                        <input class="qnt-choice" type="number" min="0" id="chopp_amber_30L" required>
                     </div>
                 </p>
-                <p>
-                    <label for="whatsapp" class="labels">Whatsapp:<br>(ex: DDD * ****-****)</label>
-                    <input id="whatsapp" class="input-labels" type="tel">
-                </p>
-                <p><input class="submit-labels" type="submit" name="submit" value="Enviar" onclick="openWhatsapp()"></p>
+                <p><input class="submit-labels" type="submit" name="submit" value="Enviar"></p>
             </form>
         </section>
         <h1 class="titles">Conheça nossa unidade em Barão de Cocais - MG!</h1>
