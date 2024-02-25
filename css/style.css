@@ -190,11 +190,18 @@ form input:hover{
     cursor: pointer;
 }
 
-#instagram{
+.store{
     display: flex;
-    gap: 1%;
-    margin: 1% auto;
-    width: 95vw;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+
+.author{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5rem;
+}
+
+.author a {
+    color: #7e7e7e;
 }
