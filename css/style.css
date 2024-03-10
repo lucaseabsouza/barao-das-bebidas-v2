@@ -203,5 +203,9 @@ form input:hover{
 }
 
 .author a {
-    color: #7e7e7e;
+    color: var(--hover-dark-main-color);
+}
+
+.author a:hover{
+    color: var(--hover-ter-color);
 }
