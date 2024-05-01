@@ -1,0 +1,62 @@
+#schedul{
+    margin: 0 15%;
+    background-color: var(--sec-color);
+    border-radius: 10px;
+}
+
+form{
+    padding: 5% 15%;
+    width: 5% auto;
+}
+
+.labels, .input-labels, .submit-labels, .qnt-choice{
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 50px;
+}
+
+.labels, .qnt-choice{
+    margin: 1% 0 3% 0;
+}
+
+.qnt-choice{
+    width: 10vw;
+}
+
+.input-labels{
+    margin: 2% 0 3% 0;
+}
+
+.input-labels, .qnt-choice{
+    background-color: var(--ter-color);
+    display: flex;
+}
+
+#chopp_pilsen_50L, #chopp_pilsen_30L, #chopp_amber_30L{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#nome{
+    font-size: 2rem;
+    text-align: start;
+}
+
+.sub-label{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+form input:hover{
+    background-color: var(--hover-ter-color);
+}
+
+.submit-labels{
+    background-color: rgb(74, 235, 141);
+    padding: 10px;
+}
+
+.submit-labels:hover{
+    background-color: rgb(32, 173, 91);
+}

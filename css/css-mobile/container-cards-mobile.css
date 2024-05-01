@@ -1,0 +1,21 @@
+@media (max-width: 1024px) {
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-chopp{
+        max-width: 600px;
+    }
+    .card-chopp h2{
+        font-size: 3rem;
+    }
+    .card-chopp h3{
+        font-size: 2rem;
+    }
+    .card-chopp button{
+        font-size: 3rem;
+    }
+    .sub-label{
+    font-size: 1.8rem;
+    }
+}
