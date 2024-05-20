@@ -1,6 +1,4 @@
-@charset "UTF-8";
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     nav{
         height: 150px;
     }
@@ -76,55 +74,5 @@
     }
     #nav.active #burguer::before{
         transform: rotate(-135deg);
-    }
-    .container-cards{
-        flex-direction: column;
-        align-items: center;
-    }
-    .card-chopp{
-        max-width: 600px;
-    }
-    .card-chopp h2{
-        font-size: 3rem;
-    }
-    .card-chopp h3{
-        font-size: 2rem;
-    }
-    .card-chopp button{
-        font-size: 3rem;
-    }
-    .sub-label{
-        font-size: 1.8rem;
-    }
-    #schedul, #contact{
-        width: 85vw;
-        padding: 20px;
-        margin: 5% auto;
-    }
-    .labels, .input-labels, .submit-labels, .qnt-choice{
-        height: 80px;
-    }
-    .qnt-choice{
-        width: 150px;
-    }
-    .input-labels{
-        margin: 5% 0;
-        width: 60vw;
-    }
-    .choice{
-        margin: 2% 0;
-    }
-    .labels, .input-labels, .submit-labels{
-        font-size: 3rem;
-    }
-    #chopp-pilsen-50L, #chopp-pilsen-30L, #chopp-amber-30L, #whatsapp, #nome{
-        font-size: 3rem;
-        text-align: center;
-    }
-    .sub-label{
-        font-size: 2.5rem;
-    }
-    #instagram{
-        flex-direction: column;
     }
 }

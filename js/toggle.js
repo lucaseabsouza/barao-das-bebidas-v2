@@ -1,8 +1,7 @@
-
 const btnMobile = document.getElementById('btn-mobile');
 const nav = document.getElementById('nav');
 
-// Função para fechar o menu. Ela
+// Função para fechar o menu.
 function closeMenu() {
     nav.classList.remove('active');
     btnMobile.setAttribute('aria-expanded', false);
@@ -29,6 +28,7 @@ document.addEventListener('click', documentClickHandler);
 // Seleciona todas as opções do menu
 const menuOptions = document.querySelectorAll('#nav a');
 
+
 // Faz um forEach adicionando um ouvinte de evento de clique a cada opção do menu, que chama a função closeMenu para fechar o menu quando uma opção é clicada.
 menuOptions.forEach(option => {
     option.addEventListener('click', closeMenu);
@@ -36,27 +36,3 @@ menuOptions.forEach(option => {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
-
-
-
-
-
-
-// const btnMobile = document.getElementById('btn-mobile');
-
-// function toggleMenu(event) {
-//     if (event.type === 'touchstart') event.preventDefault();
-//     const nav = document.getElementById('nav');
-//     nav.classList.toggle('active');
-//     const active = nav.classList.contains('active')
-//     event.currentTarget.setAttribute('aria-expanded', active)
-//     if (active) {
-//         event.currentTarget.setAttribute('aria-label', "Fechar Menu")
-//     } else {
-//         event.currentTarget.setAttribute('aria-label', "Abrir Menu")
-//     }
-// }
-
-// btnMobile.addEventListener('click', toggleMenu)
-// btnMobile.addEventListener('touchstart', toggleMenu)
-

@@ -1,0 +1,13 @@
+.author{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5rem;
+}
+
+.author a {
+    color: var(--hover-dark-main-color);
+}
+
+.author a:hover{
+    color: var(--hover-ter-color);
+}

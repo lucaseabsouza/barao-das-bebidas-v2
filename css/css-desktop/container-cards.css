@@ -1,0 +1,44 @@
+.container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.card-chopp{
+    box-shadow: 4px 4px 12px var(--hover-ter-color);
+    border-radius: 12px;
+    max-width: 300px;
+    margin: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.card-chopp img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-chopp h2{
+    font-size: 2rem;
+    margin: 2% 5%;
+}
+
+.card-chopp h3{
+    font-size: 1rem;
+    margin: 2% 50px;
+}
+
+.card-chopp button{
+    background-color: var(--main-color);
+    width: 60%;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-chopp button:hover{
+    background-color: var(--hover-dark-main-color);
+}

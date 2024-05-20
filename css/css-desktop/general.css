@@ -1,0 +1,14 @@
+:root{
+    --main-color: #FFD71F;
+    --sec-color: #f3f3f3;
+    --ter-color: #d8d8d8;
+    --hover-ter-color: #c2c1c1;
+    --hover-light-main-color: #ffe058;
+    --hover-dark-main-color: #dbb611;
+    --lateral-margins: 0 20px;
+    --header-height: 100px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
