@@ -28,6 +28,7 @@ document.addEventListener('click', documentClickHandler);
 // Seleciona todas as opções do menu
 const menuOptions = document.querySelectorAll('#nav a');
 
+
 // Faz um forEach adicionando um ouvinte de evento de clique a cada opção do menu, que chama a função closeMenu para fechar o menu quando uma opção é clicada.
 menuOptions.forEach(option => {
     option.addEventListener('click', closeMenu);
