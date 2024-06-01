@@ -17,7 +17,7 @@
 </head>
 <body>
     <header id="header">
-        <a href="#"><img id="logo" src="../img/logo_barao_das_bebidas.png" alt="Logo Barão das Bebidas"></a>
+        <a href="#"><img id="logo" src="./img/logo_barao_das_bebidas.png" alt="Logo Barão das Bebidas"></a>
         <nav id="nav">
             <button id="btn-mobile" aria-expanded="false" aria-controls="menu" aria-haspopup="true" aria-label="Abrir Menu">
                 <span id="burguer"></span>
@@ -30,16 +30,16 @@
     </header>
     <main>
         <div>
-            <h1 class="titles">Os melhores chopps da região!</h1>
+            <h1 class="titles">Peça já sua bebida!</h1>
         </div>
         <section class="container-cards">
-            <div class="card-chopp">
+            <div class="card">
                 <img src="https://krug.fbitsstatic.net/img/p/256922/caneca-krug-bier-500ml-70268/256922-1.jpg?w=1000&h=1000" alt="">
                 <h2>Krug Pilsen</h2>
                 <h3>Chopp leve de baixo teor alcóolico</h3>
                 <a href="#schedul"><button>Agende já!</button></a>
             </div>
-            <div class="card-chopp">
+            <div class="card">
                 <img src="https://krug.fbitsstatic.net/img/p/256900/amber-lager-600ml-70246/256900-1.jpg?w=1000&h=1000" alt="">
                 <h2>Krug Amber</h2>
                 <h3>Chopp de corpo e teor alcóolico médio</h3>
@@ -53,6 +53,11 @@
                     <br>
                     <input class="input-labels" type="text" name="name" id="nome" required>
                 </p>
+                <p><label for="nome" class="labels">Telefone:</label>
+                    <br>
+                    <input class="input-labels" type="tel" name="name" id="nome" required>
+                </p>
+                <p class="sub-label">(sem pontuações e espaços, exemplo: 31912345678)</p>
                 <p><label class="labels">Data desejada:</label >
                     <input class="input-labels" type="date" name="date" id="idate" required>
                 </p>

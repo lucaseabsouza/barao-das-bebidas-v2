@@ -2,17 +2,18 @@
     .container-cards{
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
     }
-    .card-chopp{
+    .card{
         max-width: 600px;
     }
-    .card-chopp h2{
+    .card h2{
         font-size: 3rem;
     }
-    .card-chopp h3{
+    .card h3{
         font-size: 2rem;
     }
-    .card-chopp button{
+    .card button{
         font-size: 3rem;
     }
     .sub-label{
